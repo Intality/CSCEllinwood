@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c059a1c7-0f10-4654-b36d-8e342c5feec5" name="Changes" comment="Updated Main.java">
-      <change afterPath="$PROJECT_DIR$/src/Temp.java" afterDir="false" />
+    <list default="true" id="c059a1c7-0f10-4654-b36d-8e342c5feec5" name="Changes" comment="Added TempConversion.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +26,19 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2bQcdMlYblhhDAETiPGoPrVAJLk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
     "Application.Temp.executor": "Run",
+    "Application.TempConversion.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -69,12 +71,22 @@
       <option name="project" value="LOCAL" />
       <updated>1706488698848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added TempConversion.java">
+      <option name="closed" value="true" />
+      <created>1706579004390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706579004390</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updated Main.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Main.java" />
+    <MESSAGE value="Added TempConversion.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TempConversion.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
