@@ -2,14 +2,19 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-               final double CM_PER_INCH =2.54;
-               final double KM_PER_INCH=3;
-                       Scanner in= new Scanner(System.in);
-                       System.out.println("Give me an amount in inches");
-                       int inches= in.nextInt();
+        System.out.println("What is your name?");
+        String name = input.nextLine();
 
-                       System.out.println(inches*CM_PER_INCH+ "centimeters");
-        System.out.println(inches*KM_PER_INCH+ "Kilometers");
-        }
+        System.out.println("Where are you from?");
+        String location = input.nextLine();
+
+        System.out.println("What us your age?");
+        int age = input.nextInt();
+
+        System.out.println("Hello, " + name + "! You are " + age + " years old." );
+                System.out.println("You are also from: " + location);
+
     }
+}
