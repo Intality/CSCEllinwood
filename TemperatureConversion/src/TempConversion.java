@@ -16,12 +16,12 @@ final double Kelvin=273.15;
 //This is to take our output Celsius and add 273.15 to get the temperature in Kelvin
 
         Scanner in= new Scanner(System.in);
-        System.out.println("Give me a temperature in Fahrenheit, as a whole number.");
-        int Fahrenheit= in.nextInt();
+        System.out.println("Give me a temperature in Fahrenheit.");
+        double Fahrenheit= in.nextDouble();
         //What this is doing is when the program is run, it is waiting for some input: some degree temperature Fahrenheit.
         //*NOTE: WE are not changing the "Give me a temperature in Fahrenheit" at all. This is simply a statement that is asking for some valid input when ran.
 
-        System.out.println((Fahrenheit-32)*(FAHRENHEIT_TO_CELSIUS_FRACTION)+ " Celsius");
+        System.out.println(((Fahrenheit-32.0)*FAHRENHEIT_TO_CELSIUS_FRACTION) + " Celsius");
         //We are telling the program to take our input Fahrenheit, and give use the output as some converted temperature Celsius.
 
 
