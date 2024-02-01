@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Greeter {
+public class InteractiveGreeter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
