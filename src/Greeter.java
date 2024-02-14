@@ -16,10 +16,10 @@ public class Greeter {
         //Personal Note: To run nicely, have all stings run first before ints. This will help with the Scanner Bugs.
 
         System.out.println("What is your age?");
-        int age = input.nextInt();
+        double age = input.nextDouble();
 
         System.out.println("How much would you like to donate today? (Please enter an amount without  $ symbol)");
-        int donate = input.nextInt();
+        double donate = input.nextDouble();
 
         // HOw can I find a way to have it  accept decimals?
 

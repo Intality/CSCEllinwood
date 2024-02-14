@@ -20,7 +20,7 @@ public class TempConversion {
 
         Scanner in= new Scanner(System.in);
         System.out.println("Give me a temperature in Fahrenheit, as a whole number.");
-        int Fahrenheit= in.nextInt();
+        double Fahrenheit= in.nextInt();
         //What this is doing is when the program is run, it is waiting for some input: some degree temperature Fahrenheit.
         //*NOTE: WE are not changing the "Give me a temperature in Fahrenheit" at all. This is simply a statement that is asking for some valid input when ran.
 

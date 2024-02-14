@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/InteractiveGreeter" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/TemperatureConversion" vcs="Git" />
   </component>
 </project>

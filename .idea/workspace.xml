@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c059a1c7-0f10-4654-b36d-8e342c5feec5" name="Changes" comment="Added TempConversion.java">
-      <change afterPath="$PROJECT_DIR$/src/CentimeterConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InteractiveGreeter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InteractiveGreeter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InteractiveGreeter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InteractiveGreeter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InteractiveGreeter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InteractiveGreeter/InteractiveGreeter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GradeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multipublic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TemperatureConversion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureConversion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TemperatureConversion/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemperatureConversion/src/TempConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureConversion/src/TempConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InteractiveGreeter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TempConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TempConversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +38,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TemperatureConversion" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/util/InputMismatchException.java" root0="FORCE_HIGHLIGHTING" />
@@ -47,20 +59,42 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Area.executor": "Run",
+    "Application.Boolean.executor": "Run",
     "Application.CentimeterConversion.executor": "Run",
+    "Application.Exercise11.executor": "Run",
+    "Application.GradeCalculator.executor": "Run",
     "Application.Greeter.executor": "Run",
+    "Application.InteractiveGreeter.executor": "Run",
+    "Application.Logarithm.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Multipublic.executor": "Run",
+    "Application.PrintTwice.executor": "Run",
     "Application.Temp.executor": "Run",
     "Application.TempConversion.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shawn/CSCEllinwood",
     "onboarding.tips.debug.path": "C:/Users/shawn/IdeaProjects/CSC1060Ellinwood/src/Main.java"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Area" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Area" />
+      <module name="CSC1060Ellinwood" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Area" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
