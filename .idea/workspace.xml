@@ -11,19 +11,9 @@
       <change afterPath="$PROJECT_DIR$/InteractiveGreeter/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/InteractiveGreeter/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/InteractiveGreeter/InteractiveGreeter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Area.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GradeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multipublic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircleCalculation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CircleCalculation/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TemperatureConversion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureConversion/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TemperatureConversion/src/TempConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureConversion/src/TempConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InteractiveGreeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TempConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TempConversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,31 +46,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Area.executor": "Run",
-    "Application.Boolean.executor": "Run",
-    "Application.CentimeterConversion.executor": "Run",
-    "Application.Exercise11.executor": "Run",
-    "Application.GradeCalculator.executor": "Run",
-    "Application.Greeter.executor": "Run",
-    "Application.InteractiveGreeter.executor": "Run",
-    "Application.Logarithm.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Multipublic.executor": "Run",
-    "Application.PrintTwice.executor": "Run",
-    "Application.Temp.executor": "Run",
-    "Application.TempConversion.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/shawn/CSCEllinwood",
-    "onboarding.tips.debug.path": "C:/Users/shawn/IdeaProjects/CSC1060Ellinwood/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Area.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Boolean.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CentimeterConversion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercise11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GradeCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Greeter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InteractiveGreeter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Logarithm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Multipublic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintTwice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Temp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TempConversion.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shawn/CSCEllinwood&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/shawn/IdeaProjects/CSC1060Ellinwood/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Area" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Area" />
