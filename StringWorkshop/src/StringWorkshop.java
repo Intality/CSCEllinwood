@@ -21,15 +21,6 @@ public class StringWorkshop {
          display visibly on the screen when printed.
          */
 
-        /*Important operators: (5.1 Rational Operators)
-        x == y // x is equal to y
-        x != y // x is not equal to y
-        x > y // x is greater than y
-        x < y // x is less than y
-         x >= y // x is greater than or equal to y
-         x <= y // x is less than or equal to y
-         */
-
         while (programrun) {
             displayMenu();
             int choice = scanner.nextInt();
@@ -135,8 +126,6 @@ public class StringWorkshop {
         String suffix = scanner.nextLine();
         int prefixIndex = inputString.indexOf(prefix);
         int suffixIndex = inputString.indexOf(suffix);
-
-        //Up to here, I asked for help from ChatGPT. I wasn't sure how to piece it together exactly.
 
         if (prefixIndex != -1 && suffixIndex != -1 && prefixIndex < suffixIndex) {
             String beforePrefix = inputString.substring(0, prefixIndex);
