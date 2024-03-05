@@ -9,7 +9,7 @@ public class ArrayReversal {
         int[] numbers = new int[100]; // assuming a maximum of 100 numbers
         int count = 0; // to keep track of the number of elements
 
-        // Read in the numbers using a Scanner inside of a loop
+        // Read in the numbers from the user.
         System.out.println("Enter numbers as a whole number. Do not use decimals! (enter -1 to stop):");
         int input = scanner.nextInt();
         while (input != -1) {
