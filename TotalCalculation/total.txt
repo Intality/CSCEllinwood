@@ -1,0 +1,3 @@
+The Subtotal is: $72.04
+The Tax is: $3.82
+The Total (Grand Total) is: $75.86
