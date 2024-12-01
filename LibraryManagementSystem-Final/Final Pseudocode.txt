@@ -1,0 +1,175 @@
+Library Management System Pseudocode
+
+Main Program (Library Management System)
+----------------------------------------
+START
+    LOAD library data from file if available, otherwise initialize a new library
+    WHILE program is running
+        DISPLAY main menu options:
+            1. Add Book
+            2. Add Member
+            3. Borrow Book
+            4. Return Book
+            5. List Available Books
+            6. List Members
+            7. Display Overdue Books
+            8. View Member's Checked-Out Books
+            9. Save and Exit
+        INPUT user choice
+        
+        IF choice is 1 THEN
+            CALL AddBook()
+            
+        ELSE IF choice is 2 THEN
+            CALL AddMember()
+            
+        ELSE IF choice is 3 THEN
+            CALL BorrowBook()
+            
+        ELSE IF choice is 4 THEN
+            CALL ReturnBook()
+            
+        ELSE IF choice is 5 THEN
+            CALL ListAvailableBooks()
+            
+        ELSE IF choice is 6 THEN
+            CALL ListMembers()
+            
+        ELSE IF choice is 7 THEN
+            CALL DisplayOverdueBooks()
+            
+        ELSE IF choice is 8 THEN
+            CALL ViewCheckedOutBooks()
+            
+        ELSE IF choice is 9 THEN
+            CALL SaveLibraryData()
+            EXIT program
+            
+        ELSE
+            PRINT "Invalid option. Please try again."
+        END IF
+    END WHILE
+END
+
+
+Functions
+---------
+
+AddBook()
+---------
+FUNCTION AddBook()
+    PROMPT user to enter book title
+    PROMPT user to enter book author
+    CREATE a new Book with the given title and author
+    ADD book to the library collection
+    PRINT "Book added successfully"
+END FUNCTION
+
+
+AddMember()
+-----------
+FUNCTION AddMember()
+    PROMPT user to enter member name
+    CREATE a new Member with the given name
+    ADD member to the library member list
+    PRINT "Member added successfully"
+END FUNCTION
+
+
+BorrowBook()
+------------
+FUNCTION BorrowBook()
+    PROMPT user to enter member name
+    PROMPT user to enter book title
+    FIND member by name
+    FIND book by title
+    IF both member and book are found THEN
+        IF book is available THEN
+            SET due date for book to 14 days from today
+            PRINT "Book borrowed successfully, due on [due date]"
+        ELSE
+            PRINT "Book is already borrowed."
+        END IF
+    ELSE
+        PRINT "Member or book not found."
+    END IF
+END FUNCTION
+
+
+ReturnBook()
+------------
+FUNCTION ReturnBook()
+    PROMPT user to enter member name
+    PROMPT user to enter book title
+    FIND member by name
+    FIND book by title
+    IF both member and book are found THEN
+        IF member has borrowed the book THEN
+            REMOVE book from member’s borrowed list
+            PRINT "Book returned successfully"
+        ELSE
+            PRINT "Member did not borrow this book."
+        END IF
+    ELSE
+        PRINT "Member or book not found."
+    END IF
+END FUNCTION
+
+
+ListAvailableBooks()
+--------------------
+FUNCTION ListAvailableBooks()
+    FOR each book in the library
+        IF book is not borrowed THEN
+            PRINT book title and author
+        END IF
+    END FOR
+END FUNCTION
+
+
+ListMembers()
+-------------
+FUNCTION ListMembers()
+    FOR each member in the library
+        PRINT member name
+    END FOR
+END FUNCTION
+
+
+DisplayOverdueBooks()
+---------------------
+FUNCTION DisplayOverdueBooks()
+    FOR each member in the library
+        FOR each book borrowed by the member
+            IF book is overdue THEN
+                PRINT book title and author with "OVERDUE" notice
+            END IF
+        END FOR
+    END FOR
+END FUNCTION
+
+
+ViewCheckedOutBooks()
+---------------------
+FUNCTION ViewCheckedOutBooks()
+    PROMPT user to enter member name
+    FIND member by name
+    IF member is found THEN
+        FOR each book borrowed by the member
+            PRINT book title, author, and due date
+            IF book is overdue THEN
+                PRINT "OVERDUE!"
+            END IF
+        END FOR
+    ELSE
+        PRINT "Member not found."
+    END IF
+END FUNCTION
+
+
+SaveLibraryData()
+-----------------
+FUNCTION SaveLibraryData()
+    SAVE current state of the library to a file
+    PRINT "Library data saved successfully"
+END FUNCTION
