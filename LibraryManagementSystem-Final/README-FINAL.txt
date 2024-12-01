@@ -49,7 +49,3 @@ Having worked with I/O projects before, I initially considered using a text file
 ## Known Issues and Incomplete Parts
 
 - **Library is Empty**: If the library is completely empty, some functions may throw errors or produce empty results. This is resolved once books or members are added and saved.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
