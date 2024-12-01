@@ -1,4 +1,4 @@
-GitHub link: 
+GitHub link: https://github.com/Intality/CSCEllinwood/tree/main/LibraryManagementSystem-Final
 
 # Library Management System (Shawn Ellinwood) - Final Draft
 
